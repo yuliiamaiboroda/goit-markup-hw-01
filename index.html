@@ -13,23 +13,24 @@
         Studio
       </a>
       <nav>
-        <a href="/studio" class="header-nav">Студія</a>
-        <a href="/portfolio" class="header-nav">Портфоліо</a>
-        <a href="/Contacts" class="header-nav">Контакти</a>
+        <ul class="header-menu">
+          <li><a href="/studio" class="header-nav">Студія</a></li>
+          <li><a href="/portfolio" class="header-nav">Портфоліо</a></li>
+          <li><a href="/Contacts" class="header-nav">Контакти</a></li>
+        </ul>
       </nav>
-      <div class="header-mail">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </div>
-      <div class="header-phone">
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
-      </div>
+      <ul class="header-contacts">
+        <li class="header-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="header-phone"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </header>
     <main>
-      <div class="main-background">
+      <section class="main-background">
         <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button">Замовити послугу</button>
-      </div>
-      <div class="advances">
+      </section>
+      <section class="advances">
+        <h2>Наші переваги</h2>
         <ul class="advances-list">
           <li class="advances-list-item">
             <h3 class="advances-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -56,57 +57,74 @@
             </p>
           </li>
         </ul>
-      </div>
-      <div class="our-occupation">
+      </section>
+      <section class="our-occupation">
         <h2 class="subtitle">Чим ми займаємося</h2>
-        <img src="images/our_occupation1.jpg" alt="our_occupation1" width="370" height="294" />
-        <img src="images/our_occupation2.jpg" alt="our_occupation2" width="370" height="294" />
-        <img src="images/our_occupation3.jpg" alt="our_occupation3" width="370" height="294" />
-      </div>
-      <div class="our-team">
+        <ul class="our-occupation">
+          <li>
+            <img src="images/our_occupation1.jpg" alt="our-occupation" width="370" height="294" />
+          </li>
+          <li>
+            <img src="images/our_occupation2.jpg" alt="our-occupation" width="370" height="294" />
+          </li>
+          <li>
+            <img src="images/our_occupation3.jpg" alt="our-occupation" width="370" height="294" />
+          </li>
+        </ul>
+      </section>
+      <section class="our-team">
         <h2 class="subtitle">Наша команда</h2>
-        <figure class="our-team-card">
-          <img src="images/our_team1.jpg" alt="our_team1" width="270" height="260" />
-          <figcaption>
-            <b>Ігор Дем'яненко</b>
-            <span class="career">Product Designer</span>
-          </figcaption>
-        </figure>
-        <figure class="our-team-card">
-          <img src="images/our_team2.jpg" alt="our_team2" width="270" height="260" />
-          <figcaption>
-            <b>Ольга Рєпіна</b>
-            <span class="career">Frontend Developer</span>
-          </figcaption>
-        </figure>
-        <figure class="our-team-card">
-          <img src="images/our_team3.jpg" alt="our_team3" width="270" height="260" />
-          <figcaption>
-            <b>Микола Тарасов</b>
-            <span class="career">Marketing</span>
-          </figcaption>
-        </figure>
-        <figure class="our-team-card">
-          <img src="images/our_team4.jpg" alt="our_team4" width="270" height="260" />
-          <figcaption>
-            <b>Михайло Єрмаков</b>
-            <span class="career">UI Designer</span>
-          </figcaption>
-        </figure>
-      </div>
+        <ul>
+          <li class="our-team-card">
+            <img src="images/our_team1.jpg" alt="our_team" width="270" height="260" />
+            <p>
+              <b>Ігор Дем'яненко</b>
+              <span class="career">Product Designer</span>
+            </p>
+          </li>
+          <li class="our-team-card">
+            <img src="images/our_team2.jpg" alt="our_team" width="270" height="260" />
+            <p>
+              <b>Ольга Рєпіна</b>
+              <span class="career">Frontend Developer</span>
+            </p>
+          </li>
+          <li class="our-team-card">
+            <img src="images/our_team3.jpg" alt="our_team" width="270" height="260" />
+            <p>
+              <b>Микола Тарасов</b>
+              <span class="career">Marketing</span>
+            </p>
+          </li>
+          <li class="our-team-card">
+            <img src="images/our_team4.jpg" alt="our_team" width="270" height="260" />
+            <p>
+              <b>Михайло Єрмаков</b>
+              <span class="career">UI Designer</span>
+            </p>
+          </li>
+        </ul>
+      </section>
     </main>
     <footer>
       <a href="#" class="home-logo">
         <span>Web</span>
         Studio
       </a>
-      <address>м. Київ, пр-т Лесі Українки, 26</address>
-      <div class="footer-mail">
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </div>
-      <div class="footer-phone">
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
-      </div>
+      <address>
+        <ul class="footer-contacts">
+          <li>
+            <a
+              href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+              target="_blank"
+              rel="noopener noreferrer"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li class="footer-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="footer-phone"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </address>
     </footer>
   </body>
 </html>
